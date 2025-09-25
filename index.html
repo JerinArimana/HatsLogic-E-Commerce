@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+   
+    <link
+      href="https://fonts.cdnfonts.com/css/proxima-nova-condensed"
+      rel="stylesheet"
+    />
+
+    
+    <link href="./assets/css/custom.css" rel="stylesheet" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="oval-container">
+      <main>
+       
+        <header>
+          <nav class="nave-menu navbar navbar-expand-lg navbar-light">
+            <div class="container flex-md-row flex-lg-column">
+             
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./assets/images/logo.svg"
+                  alt="brand logo"
+                  class="img-fluid"
+                />
+              </a>
+
+              
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+              <div
+                class="collapse navbar-collapse justify-content-between w-100"
+                id="navbarSupportedContent"
+              >
+                
+                <a
+                  href="javascript:void(0)"
+                  class="search_header"
+                  id="searchToggle"
+                >
+                  <img
+                    src="./assets/images/search_icon.svg"
+                    alt="search icon"
+                    class="img-fluid"
+                  />
+                </a>
+
+                <!-- Menu -->
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Spaces</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products & Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Showrooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Company</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Media</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+
+                
+                <div class="d-flex cart">
+                  <img
+                    src="./assets/images/cart_icon.svg"
+                    alt="cart icon"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="./assets/images/cart_list_icon.svg"
+                    alt="cart list"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="./assets/images/user_icon.svg"
+                    alt="user"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Offcanvas -->
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- Menu (Mobile) -->
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Spaces</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products & Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Showrooms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Company</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+
+              
+              <div class="d-flex cart">
+                <img
+                  src="./assets/images/cart_icon.svg"
+                  alt="cart icon"
+                  class="img-fluid"
+                />
+                <img
+                  src="./assets/images/cart_list_icon.svg"
+                  alt="cart list"
+                  class="img-fluid"
+                />
+                <img
+                  src="./assets/images/user_icon.svg"
+                  alt="user"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </header>
+
+       
+        <section class="home-banner bag-cover-style">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-12 col-sm-9 col-md-8 col-lg-6 info-box offset-lg-6 offset-md-4 offset-sm-3"
+              >
+                <h1 class="title-text">New Generation Ceramic Tile</h1>
+                <p class="paragraph">
+                  Penatibus sem vitae mollis lectus mi tellus. Maximus eu
+                  eleifend aptent dapibus metus maecenas consequat. Elementum
+                  interdum a semper. Netus nullam eros nisi volutpat nibh ex
+                  ultricies. Pharetra sagittis sit aliquet at. Magna nam platea
+                  justo.
+                </p>
+                <a href="#" class="btn btn-light learn-more-btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+        <section class="product-section">
+          <div class="container">
+          
+            <div class="product-section-title text-center">
+              <h2 class="title-text title-after-border">Products</h2>
+              <p class="paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text.
+              </p>
+            </div>
+
+           
+            <div class="row g-4">
+             
+              <div class="col-sm-6 col-md-5">
+                <div class="product-card tall-card">
+                  <img
+                    src="./assets/images/tile_1.png"
+                    alt="Bathroom Tiles"
+                  />
+                  <div class="product-info">
+                    <h5>Bathroom Tiles</h5>
+                    <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-sm-6 col-md-3">
+                <div class="product-card tall-card">
+                  <img src="./assets/images/tile_2.png" alt="Marble" />
+                  <div class="product-info">
+                    <h5>Marble</h5>
+                    <p>Ante mus blandit sapien sociosqu</p>
+                  </div>
+                </div>
+              </div>
+
+             
+              <div
+                class="col-sm-12 col-md-4 d-flex flex-column card-split-wrapp"
+              >
+                <div class="product-card half-card flex-fill">
+                  <img
+                    src="./assets/images/tile_3.png"
+                    alt="Outdoor Flooring"
+                  />
+                  <div class="product-info">
+                    <h5>Outdoor Flooring</h5>
+                    <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                  </div>
+                </div>
+                <div class="product-card half-card flex-fill">
+                  <img
+                    src="./assets/images/tile_4.png"
+                    alt="Kitchen Interior"
+                  />
+                  <div class="product-info">
+                    <h5>Kitchen Interior</h5>
+                    <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
+        <section class="projects-section">
+          <div class="container">
+            <!-- Section Title -->
+            <div class="product-section-title text-center">
+              <h2
+                class="title-text title-after-border position-relative d-flex flex-column align-items-center justify-content-between text-center"
+              >
+                Projects
+              </h2>
+              <p class="paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text.
+              </p>
+            </div>
+
+            
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="project-card">
+                  <img
+                    src="./assets/images/project-1.png"
+                    alt="Kingdom Tower"
+                  />
+                  <div class="project-title">Kingdom Tower</div>
+                  <div class="project-subtitle">Marble Flooring</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="project-card">
+                  <img src="./assets/images/project-2.png" alt="Dubai Mall" />
+                  <div class="project-title">Dubai Mall</div>
+                  <div class="project-subtitle">Wood Flooring</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="project-card">
+                  <img
+                    src="./assets/images/project-3.png"
+                    alt="King Road Offices"
+                  />
+                  <div class="project-title">King Road Offices</div>
+                  <div class="project-subtitle">Outdoor Flooring</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="project-card">
+                  <img
+                    src="./assets/images/project-4.png"
+                    alt="Beach Tower Alupang"
+                  />
+                  <div class="project-title">Beach Tower Alupang</div>
+                  <div class="project-subtitle">Wood Flooring</div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="text-center mt-4">
+              <button class="view-all-btn">View All</button>
+            </div>
+          </div>
+        </section>
+
+       
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+             
+              <div class="col-md-3 text-center text-md-start">
+                <div class="footer-logo mb-4">
+                  <img
+                    src="./assets/images/logo-white.png"
+                    alt="brand logo"
+                    class="img-fluid"
+                  />
+                </div>
+
+                <div class="social-icons">
+                  <a href="#">
+                    <img
+                      src="./assets/images/facebook.svg"
+                      alt="facebook"
+                      class="img-fluid"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./assets/images/twitter.svg"
+                      alt="twitter"
+                      class="img-fluid"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./assets/images/instagram.svg"
+                      alt="instagram"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+
+             
+              <div class="col-sm-6 col-md-3">
+                <h5>Products</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Sand Stone</a></li>
+                  <li><a href="#">Stone</a></li>
+                  <li><a href="#">Cement</a></li>
+                  <li><a href="#">Soft Stone</a></li>
+                </ul>
+              </div>
+
+              
+              <div class="col-sm-6 col-md-3">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Measurement Service</a></li>
+                  <li><a href="#">Product Advice</a></li>
+                  <li><a href="#">Interior Design</a></li>
+                </ul>
+              </div>
+
+             
+              <div class="col-md-3">
+                <div class="footer-contact-info">
+                  <h5>Contact Information</h5>
+                  <p>
+                    3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah,
+                    Riyadh 12474, Saudi Arabia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>
