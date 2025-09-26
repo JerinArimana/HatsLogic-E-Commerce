@@ -25,7 +25,6 @@ body {
   background: var(--primary);
 }
 
-
 .oval-container {
   width: 100vw;
   height: 85vh;
@@ -581,6 +580,8 @@ header .navbar-brand {
 
   .learn-more-btn {
     margin-top: 1.625rem;
+    padding: 10px 40px;
+    font-size: 14px;
   }
   .product-section {
     padding: 55px 0;
