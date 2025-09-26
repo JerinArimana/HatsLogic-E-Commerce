@@ -360,6 +360,12 @@ header .navbar-brand {
 .projects-section p {
   margin-bottom: 40px;
 }
+.offcanvas-title img{
+  max-width: 70px;
+}
+.offcanvas-title{
+  padding-left: 1rem;
+}
 /* Breakpoints start */
 
 @media (max-width: 575.98px) {
